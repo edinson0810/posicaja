@@ -14,9 +14,47 @@ body {
   height: 530px;
   margin: 20px auto;
   border: 5px solid crimson;
+  position: relative;
 
 }
 
 .box {
-  color: steelblue;
+  background-color: steelblue;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+/* .static {
+  position: static;
+  top: 40px;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  left: 200px;
+} */
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.fixed {
+  position: fixed;
+
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  right: 0;
+
 }
